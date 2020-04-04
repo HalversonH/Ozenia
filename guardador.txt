@@ -1,0 +1,39 @@
+
+#menu ul {box-shadow: 1px 1px 5px grey;
+    background-color:#EDEDED;
+    list-style:none;
+    margin-top: -1em;
+    margin-right: -2em;   margin-left: -1em;
+            }
+ h1{margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 2em; font-family: 'Dancing Script', cursive;
+
+font-size: 800%;}
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 17px 10%;
+    margin-top: 0.4em;
+    display: inline-block;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* visual do link */
+    background-color:#EDEDED;
+    color: rgb(49, 11, 26);
+    text-decoration: none;
+    
+}#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:2px solid #EA0000;
+}
+    
+    #ciculo div {
+        width: 400px;
+        height: 400px;
+        margin-left: 35.5%;
+        margin-top: -33%;
+        border-radius: 50%;
+        background-color: #f38c9c;box-shadow: 2px 2px 5px grey;
+        }    
