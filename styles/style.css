@@ -29,12 +29,13 @@ a:hover {
   background-color: rgb(250, 167, 218);
 }
 nav {
+  margin-top: 15px;
   width: 100vw;
   background-color: rgb(252, 205, 236);
 }
 ul {
   display: flex;
-  box-shadow: rgb(49, 11, 26) 1px 1px 30px;
+
   margin: 0;
   padding: 0;
 }
