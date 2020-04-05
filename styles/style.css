@@ -7,40 +7,40 @@
   border-radius: 15%;
   margin-top: 3%;
 }
-nav {
-  margin-top: 15px;
-  width: 100%;
+#nav {
+  padding-left: 10vw;
+  width: 80%;
 }
-
-ul {
+#nav ul {
   text-align: center;
+  align-items: center;
   align-self: center;
   display: flex;
-  margin-left: 20%;
 }
 
-li {
+#nav li {
   background-color: white;
   list-style-type: none;
-  border: 2px rgb(42, 136, 165) solid;
-  margin: 10px 1vw;
-  height: 30px;
-
-  border-radius: 8px;
-  font-size: 20px;
+  border: solid 3px rgba(153, 227, 236, 1);
+  padding: 10px;
+  margin-right: 0.4vw;
+  width: 100%;
+  border-radius: 1px;
 }
-a {
+#nav a {
   text-decoration: none;
-
+  font-size: 17px;
   /*below I changed the color*/
   color: black;
   /*I added some padding*/
+
   padding: 1vw;
   /*also changed the font family but that's totally irrelevant*/
-  font-family: monospace;
+  font-family: sans-serif;
 }
-a:hover {
-  color: rgb(250, 167, 218);
+#nav a:hover {
+  transition: color 0.2s ease 0s;
+  color: rgba(153, 227, 236, 1);
 }
 
 body {
@@ -62,12 +62,33 @@ body {
     display: block;
   }
 }
+
 #fundo {
-  position: static;
   background-color: white;
-  border-radius: 1em;
+  height: auto;
   width: 100%;
-  width: 1080px;
-  height: 2000px;
-  margin-left: 10%;
+  position: relative;
+}
+#cup {
+  border-radius: 8px;
+  max-width: 400px;
+}
+#fundo ul {
+  text-align: left;
+  align-items: center;
+  align-self: center;
+  display: flex;
+}
+#fundo li {
+  background-color: rgb(255, 233, 233);
+  list-style-type: none;
+  padding: 20px;
+  width: 100%;
+  border-radius: 1px;
+}
+#estrela {
+  padding-left: 46vw;
+  text-align: center;
+  align-items: center;
+  align-self: center;
 }
