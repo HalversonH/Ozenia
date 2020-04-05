@@ -6,42 +6,45 @@
 #logo > img {
   border-radius: 15%;
   margin-top: 3%;
-  box-shadow: 2px 2px 5px grey;
+}
+nav {
+  margin-top: 15px;
+  width: 100%;
+}
+
+ul {
+  text-align: center;
+  align-self: center;
+  display: flex;
+  margin-left: 20%;
 }
 
 li {
+  background-color: white;
   list-style-type: none;
-  margin: 17px 2vw;
-  /* our font-size will be 3% of the height of the viewport */
-  font-size: 3vh;
+  border: 2px rgb(42, 136, 165) solid;
+  margin: 10px 1vw;
+  height: 30px;
+
+  border-radius: 8px;
+  font-size: 20px;
 }
 a {
   text-decoration: none;
 
   /*below I changed the color*/
-  color: white;
+  color: black;
   /*I added some padding*/
   padding: 1vw;
   /*also changed the font family but that's totally irrelevant*/
   font-family: monospace;
 }
 a:hover {
-  background-color: rgb(250, 167, 218);
-}
-nav {
-  margin-top: 15px;
-  width: 100vw;
-  background-color: rgb(252, 205, 236);
-}
-ul {
-  display: flex;
-
-  margin: 0;
-  padding: 0;
+  color: rgb(250, 167, 218);
 }
 
 body {
-  background-color: #fcbfc8;
+  background-color: #f0b7bd;
   margin: 0;
 }
 @media only screen and (max-width: 500px) {
@@ -59,7 +62,6 @@ body {
     display: block;
   }
 }
-
 #fundo {
   position: static;
   background-color: white;
