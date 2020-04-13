@@ -62,9 +62,11 @@ body {
     display: block;
   }
 }
-
+#cupcake1 {
+  margin-top: 3vw;
+  margin-left: 24vw;
+}
 #fundo {
-  background-color: white;
   height: auto;
   width: 100%;
   position: relative;
@@ -87,8 +89,212 @@ body {
   border-radius: 1px;
 }
 #estrela {
+  position: absolute;
   padding-left: 46vw;
   text-align: center;
   align-items: center;
   align-self: center;
+}
+#estrelinha1 {
+  margin-top: 1.4vw;
+  position: absolute;
+  margin-left: 18vw;
+}
+#estrelinha2 {
+  margin-top: 1.4vw;
+  margin-left: 50vw;
+  position: absolute;
+}
+#estrela2 {
+  position: absolute;
+  padding-left: 46vw;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
+#estrelinha3 {
+  margin-top: 1.4vw;
+  position: absolute;
+  margin-left: 18vw;
+}
+#estrelinha4 {
+  margin-top: 1.4vw;
+  margin-left: 50vw;
+  position: absolute;
+}
+#comp-ikpjx1n5 {
+  position: relative;
+  margin: 0px 0px 5px calc((100% - 980px) * 0.5);
+  left: 32px;
+  grid-area: 6 / 1 / 7 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.txtNew_override-left * {
+  text-align: left !important;
+}
+.txtNew_override-right * {
+  text-align: right !important;
+}
+.txtNew_override-center * {
+  text-align: center !important;
+}
+.txtNew_override-justify * {
+  text-align: justify !important;
+}
+.txtNew > * {
+  pointer-events: auto;
+}
+.txtNew li {
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: normal;
+}
+.txtNew ol,
+.txtNew ul {
+  padding-left: 1.3em;
+  padding-right: 0;
+  margin-left: 0.5em;
+  margin-right: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.txtNew ul {
+  list-style-type: disc;
+}
+.txtNew ol {
+  list-style-type: decimal;
+}
+.txtNew ul ul,
+.txtNew ol ul {
+  list-style-type: circle;
+}
+.txtNew ul ul ul,
+.txtNew ol ul ul {
+  list-style-type: square;
+}
+.txtNew ul ol ul,
+.txtNew ol ol ul {
+  list-style-type: square;
+}
+.txtNew ul[dir="rtl"],
+.txtNew ol[dir="rtl"] {
+  padding-left: 0;
+  padding-right: 1.3em;
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+.txtNew ul[dir="rtl"] ul,
+.txtNew ul[dir="rtl"] ol,
+.txtNew ol[dir="rtl"] ul,
+.txtNew ol[dir="rtl"] ol {
+  padding-left: 0;
+  padding-right: 1.3em;
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+.txtNew p {
+  margin: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.txtNew h1 {
+  margin: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.txtNew h2 {
+  margin: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.txtNew h3 {
+  margin: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.txtNew h4 {
+  margin: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.txtNew h5 {
+  margin: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.txtNew h6 {
+  margin: 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.txtNew a {
+  color: inherit;
+}
+</style > <style type="text/css" data-styleid="ca1" > .ca1_zoomedin {
+  cursor: url(https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/cursor_zoom_out.png),
+    url(https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/cursor_zoom_out.cur),
+    auto;
+  overflow: hidden;
+  display: block;
+}
+.font_1 {
+  font: normal normal bold 14px/1.1em Enriqueta, serif;
+  color: #1b4a47;
+}
+.font_2 {
+  font: normal normal bold 35px/1.4em museo-slab-w01-100, serif;
+  color: #68391a;
+}
+.font_3 {
+  font: normal normal bold 60px/1.4em museo-slab-w01-100, serif;
+  color: #68391a;
+}
+.font_4 {
+  font: normal normal bold 33px/1.4em museo-slab-w01-100, serif;
+  color: #68391a;
+}
+.font_5 {
+  font: normal normal bold 28px/1.4em museo-slab-w01-100, serif;
+  color: #68391a;
+}
+.font_6 {
+  font: normal normal bold 20px/1.4em museo-slab-w01-100, serif;
+  color: #68391a;
+}
+.font_7 {
+  font: normal normal normal 17px/1.4em proxima-n-w01-reg, sans-serif;
+  color: #68391a;
+}
+.font_8 {
+  font: normal normal normal 15px/1.4em proxima-n-w01-reg, sans-serif;
+  color: #68391a;
+}
+.font_9 {
+  font: normal normal normal 13px/1.4em proxima-n-w01-reg, sans-serif;
+  color: #1b4a47;
+}
+.font_10 {
+  font: normal normal normal 10px/1.3em Enriqueta, serif;
+  color: #1b4a47;
+}
+@media only screen and (max-width: 500px) {
+  /*shows elements in a column*/
+  #nav ul {
+    flex-direction: column;
+  }
+
+  /* deletes margin on top or bottom of the a tag*/
+  #nav li {
+    margin: 0;
+  }
+  /* makes sure that the a tag will take the entire screen*/
+  #nav a {
+    display: block;
+  }
+  p {
+    display: block;
+  }
 }
