@@ -47,6 +47,23 @@ body {
   background-color: #f0b7bd;
   margin: 0;
 }
+#linkinsta {
+  margin-left: 17vw;
+}
+#insta {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 335px;
+  width: 150px;
+  height: 150px;
+}
+#setarede {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 200px;
+  width: 200px;
+  height: 260px;
+}
 @media only screen and (max-width: 500px) {
   /*shows elements in a column*/
   ul {
@@ -233,7 +250,7 @@ body {
 .txtNew a {
   color: inherit;
 }
-</style > <style type="text/css" data-styleid="ca1" > .ca1_zoomedin {
+.ca1_zoomedin {
   cursor: url(https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/cursor_zoom_out.png),
     url(https://static.parastorage.com/services/skins/2.1229.80/images/wysiwyg/core/themes/base/cursor_zoom_out.cur),
     auto;
@@ -257,8 +274,8 @@ body {
   color: #68391a;
 }
 .font_5 {
-  font: normal normal bold 28px/1.4em museo-slab-w01-100, serif;
-  color: #68391a;
+  font: normal normal bold 28px/1.4em museo-slab-w01-100, bebas neue;
+  color: white;
 }
 .font_6 {
   font: normal normal bold 20px/1.4em museo-slab-w01-100, serif;
